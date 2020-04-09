@@ -8,4 +8,4 @@ This is my personal backup of solutions and comparisons on some Leetcode Practic
 
 - If you feel it's useful for your study, too, please feel free to fork it.
 
-- For every practice there is a seperate README file.
+- First few codes I just put them at top. If I did more, I may try to cluster them into different folders.
