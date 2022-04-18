@@ -2,10 +2,10 @@
 
 Zuomega
 
-This is my personal backup of solutions and comparisons on some Leetcode Practice I did.
+This is the backup of my first-try solutions on some Leetcode Practices.
 
-- I am not a professional Programmer, so the repository is just for later review.
+- Later on I might add some comments here, there is nothing here beyond code yet.
 
-- If you feel it's useful for your study, too, please feel free to fork it.
+- Since the codes are LeetCode-style, they are not ready-to-run on transistor-based computers. 
 
-- First few codes I just put them at top. If I did more, I may try to cluster them into different folders.
+- Lucklily you can run all the codes on neuron-based computer of your own.
