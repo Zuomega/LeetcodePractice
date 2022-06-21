@@ -63,3 +63,46 @@ public:
          
     }
 };
+
+
+
+/*
+DFS
+
+class Solution {
+public:
+    int numIslands(vector<vector<char>>& grid) {
+        int nr = grid.size();
+        if (!nr) return 0;
+        int nc = grid[0].size();
+
+        int num = 0;
+        for (int i = 0; i < nr; i++)
+        {
+            for (int j = 0; j < nc; j++)
+            {
+                if (grid[i][j] == '1')
+                {
+                    num++;
+                    dfs(i, j, grid);
+                }
+            }
+        }
+        return num;
+        
+    }
+
+    void dfs(int x, int y, vector<vector<char>>& grid)
+    {
+        int nr = grid.size();
+        int nc = grid[0].size();
+
+        grid[x][y] = '0';
+
+        if (x - 1 >= 0 && grid[x-1][y] == '1') dfs(x-1, y, grid);
+        if (x + 1 < nr && grid[x+1][y] == '1') dfs(x+1, y, grid);
+        if (y - 1 >= 0 && grid[x][y-1] == '1') dfs(x, y-1, grid);
+        if (y + 1 < nc && grid[x][y+1] == '1') dfs(x, y+1, grid);
+    }
+};
+*/
